@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Patient Records</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="bottom_destination1_title">Bottom Destination 1</string>
+    <string name="bottom_destination2_title">Bottom Destination 2</string>
+    <string name="bottom_destination3_title">Bottom Destination 3</string>
+    <string name="drawer_destination1_title">Drawer Destination 1</string>
+    <string name="drawer_destination2_title">Drawer Destination 2</string>
+    <string name="drawer_destination3_title">Drawer Destination 3</string>
+    <string name="drawer_destination4_title">Drawer Destination 4</string>
+    <string name="nav_header_title">Nav Header</string>
+    <string name="nav_header_subtitle">Nav Header Subtitle</string>
+    <string name="nav_header_image_description">Nav Image</string>
+</resources>

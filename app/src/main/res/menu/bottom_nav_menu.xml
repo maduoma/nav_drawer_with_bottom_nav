@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_destination1"
+        android:icon="@drawable/my_icon"
+        android:title="@string/bottom_destination1_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_destination2"
+        android:icon="@drawable/my_icon"
+        android:title="@string/bottom_destination2_title"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_destination3"
+        android:icon="@drawable/my_icon"
+        android:title="@string/bottom_destination3_title"
+        app:showAsAction="ifRoom" />
+
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--    <item-->
+<!--        android:id="@+id/bottom_destination1"-->
+<!--        android:icon="@drawable/my_icon"-->
+<!--        android:title="@string/bottom_destination1_title"-->
+<!--        app:menuCategory="secondary"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/bottom_destination2"-->
+<!--        android:icon="@drawable/my_icon"-->
+<!--        android:title="@string/bottom_destination2_title"-->
+<!--        app:menuCategory="secondary"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/bottom_destination3"-->
+<!--        android:icon="@drawable/my_icon"-->
+<!--        android:title="@string/bottom_destination3_title"-->
+<!--        app:menuCategory="secondary"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--</menu>-->

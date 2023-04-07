@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bottom_destination1">
+
+    <!-- Navigation Drawer Destinations -->
+    <fragment
+        android:id="@+id/drawer_destination1"
+        android:name="com.dodemy.patientrecords.ui.DrawerDestination1Fragment"
+        android:label="Drawer Destination 1"
+        tools:layout="@layout/fragment_drawer_destination1">
+    </fragment>
+
+    <fragment
+        android:id="@+id/drawer_destination2"
+        android:name="com.dodemy.patientrecords.ui.DrawerDestination2Fragment"
+        android:label="Drawer Destination 2"
+        tools:layout="@layout/fragment_drawer_destination2">
+    </fragment>
+
+    <fragment
+        android:id="@+id/drawer_destination3"
+        android:name="com.dodemy.patientrecords.ui.DrawerDestination3Fragment"
+        android:label="Drawer Destination 3"
+        tools:layout="@layout/fragment_drawer_destination3">
+    </fragment>
+
+    <!-- Bottom Navigation Destinations -->
+    <fragment
+        android:id="@+id/bottom_destination1"
+        android:name="com.dodemy.patientrecords.ui.BottomDestination1Fragment"
+        android:label="Bottom Destination 1"
+        tools:layout="@layout/fragment_bottom_destination1">
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottom_destination2"
+        android:name="com.dodemy.patientrecords.ui.BottomDestination2Fragment"
+        android:label="Bottom Destination 2"
+        tools:layout="@layout/fragment_bottom_destination2">
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottom_destination3"
+        android:name="com.dodemy.patientrecords.ui.BottomDestination3Fragment"
+        android:label="Bottom Destination 3"
+        tools:layout="@layout/fragment_bottom_destination3">
+    </fragment>
+
+</navigation>

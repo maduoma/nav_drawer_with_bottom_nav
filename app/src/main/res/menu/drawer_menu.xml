@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_destination1"
+            android:icon="@drawable/my_icon"
+            android:title="@string/drawer_destination1_title" />
+        <item
+            android:id="@+id/drawer_destination2"
+            android:icon="@drawable/my_icon"
+            android:title="@string/drawer_destination2_title" />
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_destination3"
+            android:icon="@drawable/my_icon"
+            android:title="@string/drawer_destination3_title" />
+        <item
+            android:id="@+id/drawer_destination4"
+            android:icon="@drawable/my_icon"
+            android:title="@string/drawer_destination4_title" />
+    </group>
+</menu>
